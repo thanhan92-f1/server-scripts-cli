@@ -1,6 +1,6 @@
 #!/bin/bash
 # Copyright (c) 2025-2026 Marc Allgeier (thanhan92-f1)
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT V3
 # https://github.com/thanhan92-f1/server-scripts-cli
 #
 # server-scripts - Unified Script Management CLI
