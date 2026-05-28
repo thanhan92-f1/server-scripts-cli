@@ -1,0 +1,63 @@
+# Server Scripts Manifest - Auto-generated from YAML Front-Matter
+# DO NOT EDIT MANUALLY - Regenerate with: ./generate-manifest.sh
+#
+# Documentation: docs/MANIFEST_SCHEMA.md
+# Version: 1.1.1
+
+metadata:
+  version: "1.1.1"
+  generated: "2026-01-17T20:14:50+01:00"
+  generator: "generate-manifest.sh"
+  total_scripts: 4
+  with_frontmatter: 4
+
+# Categories derived from directory structure
+categories:
+  operations:
+    description: "Maintenance, Validation & Backup"
+    path: "scripts/operations/"
+  monitoring:
+    description: "Health Check & Monitoring Scripts"
+    path: "scripts/monitoring/"
+  setup:
+    description: "Installation & Setup Scripts"
+    path: "scripts/setup/"
+
+# Script Registry
+scripts:
+  backup-example:
+    path: "examples/demo-scripts/backup-example.sh"
+    category: ""
+    deployment: scheduled
+    service: none
+    status: active
+    type: admin
+    requires_root: true
+
+  deploy-example:
+    path: "examples/demo-scripts/deploy-example.sh"
+    category: ""
+    deployment: manual
+    service: none
+    status: active
+    type: deploy
+    requires_root: true
+
+  health-check:
+    path: "examples/demo-scripts/health-check.sh"
+    category: ""
+    deployment: automated
+    service: health-check.service
+    status: active
+    type: check
+    requires_root: false
+
+  monitoring-example:
+    path: "examples/demo-scripts/monitoring-example.sh"
+    category: ""
+    deployment: manual
+    service: none
+    status: active
+    type: check
+    requires_root: false
+
